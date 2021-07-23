@@ -152,7 +152,7 @@ body {
     height: 100%;
     top: 50%;
     max-width: 90%;
-    max-height: 60%;
+    max-height: 65%;
     left: 0;
     right: 0;
     margin: auto;
@@ -223,28 +223,24 @@ body {
 }
 
 .contact-item {
-    padding: 10px;
+    padding: 16px;
 }
 
 .contact-item:hover {
     opacity: 0.6;
 }
 
-.phone {
-    transform: translateY(3px);
-    width: 60px;
-    height: 60px;
-    -webkit-transform: translateY(3px);
-    -moz-transform: translateY(3px);
-    -ms-transform: translateY(3px);
-    -o-transform: translateY(3px);
+.social-img {
+    width: 34px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
-.facebook {
-    width: 54px;
-    height: 54px;
-    transform: translateY(5px);
-}
+
 
 /* intro */
 .intro {
